@@ -1,0 +1,11 @@
+server_addr: "gotunnel.net:2333"
+tunnels:
+    ssh:
+       remote_port: 51001
+       proto:
+         tcp: ":22"
+    web:   
+     subdomain: duanqz
+     root: "/Users/duanqz/Code/WeEngine"
+     proto:
+       http: ":8080"
