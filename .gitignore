@@ -1,1 +1,4 @@
 .vscode
+data/config.php
+data/install.lock
+data/tpl/*
