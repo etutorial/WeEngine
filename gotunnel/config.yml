@@ -1,4 +1,4 @@
-server_addr: "gotunnel.net:2333"
+server_addr: "gotunnel.net:3030"
 tunnels:
     ssh:
        remote_port: 51001
