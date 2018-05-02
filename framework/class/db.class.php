@@ -127,7 +127,7 @@ class DB {
 		$this->logging($sql, $params, $statement->errorInfo());
 		
 		$endtime = microtime();
-		$this->performance($sql, $endtime - $starttime);
+		$this->performance($sql, strtotime($endtime - $starttime));
 		if (!$result) {
 			return false;
 		} else {
